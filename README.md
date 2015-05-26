@@ -41,3 +41,7 @@ Other things in this package:
 * [A library to override some of the hardcoded problems bootstrap has for vertical rhythm.](./sass/mixins/_bootstrap-overrides.scss)
 * [A helper to convert px to em.](./sass/mixins/_em.scss)
 * [Bootstrap's default examples ported to work a 2rem line height.](./examples/)  These aren't designed to be pixel-perfect, just guidelines for reference.
+
+## License
+
+This is a derivative work of Bootstrap, and carries the same MIT license where applicable.   The included packages have their own licenses where applicable.
