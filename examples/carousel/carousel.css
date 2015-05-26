@@ -1,0 +1,160 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 2rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 32rem;
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-caption h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 32rem;
+  background-color: rgba(119,119,119, 0.7);
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  opacity: 0.5;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  /* Space out the Bootstrap <hr> more */
+  margin-top: 6rem;
+  margin-bottom: calc(6rem - 1px);
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.featurette-image {
+  width: auto;
+  height: 30rem
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 2rem;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 2rem;
+  }
+
+  .featurette-heading {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 6rem;
+  }
+}
+
+
+/*
+ * Debug grid button.
+ */
+
+
+.toggle-grid {
+  float: right;
+  height: 2rem;
+  margin: 1rem;
+}

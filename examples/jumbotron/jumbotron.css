@@ -1,0 +1,14 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.jumbotron {
+	background-color: rgba(245,245,245, 0.7);
+}
+
+
+.TYPE-DEBUG {
+	min-height: 200%
+}

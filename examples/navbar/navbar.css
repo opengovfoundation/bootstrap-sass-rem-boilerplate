@@ -1,0 +1,12 @@
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.jumbotron {
+	background-color: rgba(238,238,238, 0.7);
+}

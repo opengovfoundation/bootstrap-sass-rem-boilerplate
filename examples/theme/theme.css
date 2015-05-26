@@ -1,0 +1,39 @@
+body {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: calc(2rem - 1px);
+}
+
+.theme-showcase > p > .btn {
+
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.jumbotron {
+	background-color: rgba(248,248,248, 0.7);
+}
+
+.text-warning {
+  padding: calc(2rem - 1px) 20px;
+  margin: 2rem 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #aa6708
+}
+
+.text-warning .fa {
+  margin-right: 0.5em;
+}
+
+.TYPE-DEBUG {
+  min-height: 1100%;
+}

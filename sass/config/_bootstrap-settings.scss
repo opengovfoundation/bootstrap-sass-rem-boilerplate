@@ -1,0 +1,45 @@
+/*
+ * Bootstrap-specific settings.
+ */
+
+// Fonts, relative sizing overrides for ems.
+$font-size-base: $base-font-size;
+$line-height-base: $base-line-height;
+
+// Make our header twice as tall as our line-height.
+$header-height: $base-font-size * $base-line-height * 2;
+
+// Colors
+$headline-color: $black;
+$text-color: $black;
+
+$link-color: $blue;
+$link-hover-color: $blue;
+$link-hover-decoration: underline;
+
+// Buttons
+$btn-primary-bg: $blue;
+$btn-primary-border: transparent;
+$btn-success-bg: $green;
+$btn-success-border: transparent;
+$btn-info-bg: $yellow;
+$btn-info-border: transparent;
+$btn-warning-bg: $orange;
+$btn-warning-border: transparent;
+$btn-danger-bg: $red;
+$btn-danger-border: transparent;
+
+$font-family-sans-serif: $main-font;
+$font-family-serif: $accent-font;
+
+// Navbar
+// $navbar-height: calc($header-height - 2px); // Adjust for borders.
+// $navbar-margin-bottom: 0;
+// $navbar-border-radius: 0;
+// $border-radius-base: 0;
+
+$nav-tabs-border-color: transparent;
+$nav-tabs-link-hover-border-color: transparent;
+$nav-tabs-active-link-hover-border-color: transparent;
+$nav-tabs-justified-link-border-color: transparent;
+$nav-tabs-justified-active-link-border-color: transparent;

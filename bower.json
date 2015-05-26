@@ -1,0 +1,10 @@
+{
+  "name": "bootstrap-sass-rem",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bootstrap-sass-official": "3.3.3",
+    "font-awesome": "~4.2.0",
+    "compass-breakpoint": "~2.4.2"
+  }
+}

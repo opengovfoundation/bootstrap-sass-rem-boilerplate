@@ -1,0 +1,11 @@
+body {
+  min-height: 125rem;
+}
+
+.navbar-static-top {
+  margin-bottom: 2rem;
+}
+
+.jumbotron {
+	background-color: rgba(238,238,238, 0.7);
+}

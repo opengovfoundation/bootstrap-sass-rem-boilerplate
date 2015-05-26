@@ -1,0 +1,23 @@
+h4 {
+  margin-top: 2rem;
+}
+.row {
+  margin-bottom: 2rem;
+}
+.row .row {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: calc(2rem - 1px);
+  padding-bottom: calc(2rem - 1px);
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+
+.TYPE-DEBUG {
+  min-height: 500%;
+}
