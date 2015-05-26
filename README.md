@@ -1,5 +1,5 @@
 # bootstrap-sass-rem-boilerplate
-Boilerplate setup of SASS Bootstrap + Compass using `rem` as the base unit instead of `px`.  This also has sensible defaults added to give a strong vertical rhythm to your typography, to go nicely with Bootstrap's grid.  This can easily be adapted for use with `em` instead of `rem`.
+Boilerplate setup of SASS Bootstrap + Compass using `rem` as the base unit instead of `px`.  This also has sensible defaults added to give a strong vertical rhythm to your typography, to go nicely with Bootstrap's grid.  This can be adapted for use with `em` instead of `rem`.
 
 ## Included libraries
 
