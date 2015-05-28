@@ -492,7 +492,7 @@ $jumbotron-bg:                   $gray-lighter !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ($font-size-base * 1.5) !default;
 // Calculate our line height to be used in the override.
-$jumbotron-line-height: 		 ceil( $jumbotron-font-size / $base-line-height ) * $base-line-height !default;
+$jumbotron-line-height: 		 ceil( $jumbotron-font-size / $line-height-base ) * $line-height-base !default;
 
 
 //== Form states and alerts
