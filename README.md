@@ -1,4 +1,7 @@
 # bootstrap-sass-rem-boilerplate
+
+:warning: **[Bootstrap 4 Alpha is now out, and you should probably be using that instead!](http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/) It very nicely handles rems and ems, though it does *not* support IE8.
+
 Boilerplate setup of SASS Bootstrap + Compass using `rem` as the base unit instead of `px`.  This also has sensible defaults added to give a strong vertical rhythm to your typography, to go nicely with Bootstrap's grid.  This can be adapted for use with `em` instead of `rem`.
 
 Rather than editing the original Bootstrap files, we've overridden or replaced them entirely, so updating Bootstrap *should* be easy.
